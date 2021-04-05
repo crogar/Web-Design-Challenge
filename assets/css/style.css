@@ -17,9 +17,20 @@ body{
 .container{
     width: 100%;
     border: 1px solid;
+    height: 70vh;
 
 }
 
 main{
-    margin-top: 9%;
+    margin-top: 5%;
+}
+
+.my-row{
+    border: green  5px;
+}
+
+.my-col{
+    /* margin-right: 5px; */
+    border: blue 3px dotted;
+    background-color: whitesmoke;
 }
