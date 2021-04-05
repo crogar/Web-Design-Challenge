@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(226, 226, 226);
+
+}
 .navbar-brand{
     background-color: #536162;
     color:azure;
@@ -8,4 +12,14 @@
 .navbar{
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    border: 1px solid;
+
 }

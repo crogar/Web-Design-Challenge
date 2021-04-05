@@ -10,7 +10,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="jquery-3.5.1.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -27,7 +27,10 @@
             <ul class="navbar-navr">
                 <!-- <a class="navbar-brand" href="./index.html">LATITUDE</a> -->
             </ul>
-            <ul class="navbar-nav ml-auto">        
+            <ul class="navbar-nav ml-auto">  
+                <button class="navbar-toggler" data-toggle="collapse" data-target="collapse_plots">
+                    <span class="navbar-toggler-icon"></span>
+                </button>      
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                       About
@@ -48,9 +51,12 @@
     </header>
     <!-- end header -->
     <div class="container">
-        <div class="jumbotron">
-            <p>Some text here</p>
-        </div>
+        <main>
+            <div class="jumbotron">
+                <p>Some text here</p>
+            </div>
+        </main>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body> 
