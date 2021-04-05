@@ -26,16 +26,17 @@ main{
 }
 
 .my-row{
-    border: green  5px;
+    border: green dotted 5px;
 }
 
 .my-col{
     /* margin-right: 5px; */
     border: blue 3px dotted;
     background-color: white;
+    min-height: 15vh;
 }
 .left {
-    width: 100px;
+    width: 60%;
     float: left;
-    padding: 0 10px 0 0;
+    padding: 0 1px 0 0;
 }
