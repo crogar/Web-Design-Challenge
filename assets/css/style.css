@@ -32,5 +32,10 @@ main{
 .my-col{
     /* margin-right: 5px; */
     border: blue 3px dotted;
-    background-color: whitesmoke;
+    background-color: white;
+}
+.left {
+    width: 100px;
+    float: left;
+    padding: 0 10px 0 0;
 }
