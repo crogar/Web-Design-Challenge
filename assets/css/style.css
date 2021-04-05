@@ -44,3 +44,14 @@ main{
     float: left;
     padding: 0 1px 0 0;
 }
+.grid-plots{
+    height: 100%;
+}
+.my-col-sm{
+    padding-top: 5%;
+    height: 95%;
+}
+
+.col-md-6 h3{
+    color: rgb(29, 204, 216);
+}
