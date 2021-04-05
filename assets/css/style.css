@@ -35,6 +35,10 @@ main{
     background-color: white;
     min-height: 15vh;
 }
+.my-col-sm img{
+    width: 100%;
+}
+
 .left {
     width: 60%;
     float: left;
