@@ -31,9 +31,14 @@ body{
 .Comparison-cont hr, .container hr{
     width: 60%;
 }
+.Comparison-cont img{
+    width: 90%;
+    align-items: center;
+}
 
 .Comparison-cont{
     background-color: white;
+    margin-bottom: 2%;
     
 }
 
@@ -49,6 +54,7 @@ main{
     /* margin-right: 5px; */
     /* border: blue 3px dotted; */
     background-color: white;
+    align-items: center;
 }
 
 .my-col-sm img{
@@ -83,7 +89,7 @@ main{
 .Comparison-cont hr{
     width: 60%;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 @keyframes gradient {
