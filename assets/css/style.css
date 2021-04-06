@@ -61,7 +61,7 @@ main{
     padding: 0 1px 0 0;
 }
 .grid-plots{
-    min-height: 40vh;
+    min-height: auto;
 }
 .my-col-sm{
     height: 95%;
