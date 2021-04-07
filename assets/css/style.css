@@ -32,10 +32,10 @@ body{
 .Comparison-cont img{
     width: 100%;
     align-items: center;
-    box-shadow: inset 0px 0px 7px rgba(228, 8, 8, 0.2);
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.3);
 }
 .Comparison-cont img:hover, .my-row img:hover{
-    box-shadow: inset 0px 0px 7px rgba(16, 187, 255, 0.7);
+    box-shadow: inset 0px 0px 7px rgba(16, 187, 255, 0.8);
 }
 
 
