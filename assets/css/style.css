@@ -71,6 +71,10 @@ main{
 .grid-plots{
     min-height: auto;
 }
+.grid-plots img{
+    width: 100%;
+}
+
 .my-col-sm{
     height: 95%;
 }
@@ -105,3 +109,11 @@ main{
         background-position: 0% 50%;
     }
 }
+
+/* Style when Working with small screen devices */
+
+@media only screen and (max-width: 600px) {
+    .grid-plots img{
+        width: 100%;
+    }
+  }
