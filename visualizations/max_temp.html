@@ -37,20 +37,20 @@
                         </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown_plots">
                         <!-- Creating links to our different Visualizations -->
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind speed</a>
+                        <a class="dropdown-item" href="./max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="./humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="./windspeed.html">Wind speed</a>
                     </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./visualizations/comparison.html">
+                        <a class="nav-link" href="../comparison.html">
                           Comparison
                           <span class="caret"></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./visualizations/data.html">
+                        <a class="nav-link" href="../data.html">
                           Data
                         </a>
                     </li>
@@ -61,13 +61,13 @@
     </header>
     <!-- end header -->
     <main>
-        <div class="container my-container">
+        <div class="container my-container individual-plot">
             <div class="row my-row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                    <div class="col-md-12 my-col">
-                      <h3>Summary: Latitude vs. X</h3>
+                      <h3>Max Temperature</h3>
                       <hr>
-                      <img src="./assets/images/Temp_city.png" alt="Temp_city" class="left" /> <p>Some text tha should be wrapped
+                      <img src="../assets/images/Temp_city.png" alt="Temp_city" class="plot-img"/> <p>Some text tha should be wrapped
                           around the image Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula nisi ac finibus blandit.
                            Curabitur a sapien velit. Duis suscipit velit vel sapien rutrum posuere. Sed gravida, justo nec eleifend finibus, 
                            leo diam convallis dui, et porttitor risus lectus sed massa. Integer suscipit malesuada mauris lobortis fermentum. 
@@ -79,13 +79,13 @@
                       </p>
                    </div>
                 </div>
-                <div class="col-md-6 grid-plots">
-                   <div class="col-sx-12 col-md-11 my-col">
+                <div class="col-md-4 grid-plots">
+                   <div class="col-sx-12 col-md-12 my-col">
                       <h3>Visualizations</h3>
                       <hr>                   
                       <div class="row my-row">
                           <div class="col-sx-3 col-sm-3 col-md-6 col-lg-6">
-                              <img src="../assets/images/Temp_city.png" alt="">
+                              <img src="../assets/images/Temp_city.png" alt="" style="border: 2px blue solid;">
                               <hr class="hr-plot"/>
                           </div>       
                           <div class="col-sx-3 col-sm-3 col-md-6 col-lg-6">

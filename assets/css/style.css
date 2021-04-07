@@ -34,7 +34,7 @@ body{
     align-items: center;
     box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.3);
 }
-.Comparison-cont img:hover, .grid-row img:hover{
+.Comparison-cont img:hover, .grid-row img:hover, .my-row img:hover{
     box-shadow: inset 0px 0px 7px rgba(16, 187, 255, 0.8);
 }
 
@@ -69,7 +69,7 @@ body{
     margin-bottom: 2%;
 }
 
-.my-col-sm img, .grid-plots img{
+.my-col-sm img, .grid-plots img, .plot-img{
     width: 100%;
 }
 
@@ -148,5 +148,13 @@ body{
         background-color: #333; /* Modern Browsers */
         width: 100%;
     }
-
+    .individual-plot .grid-plots img{
+        width: 45%;
+        margin: auto;
+        display: block;
+    }
+    .individual-plot .grid-plots{
+        align-items: center;
+        margin: auto;
+    }
   }
