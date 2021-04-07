@@ -28,9 +28,7 @@ body{
     text-align: center;
     color: rgb(4, 192, 206);;
 }
-.Comparison-cont hr, .container hr{
-    width: 60%;
-}
+
 .Comparison-cont img{
     width: 90%;
     align-items: center;
@@ -92,7 +90,7 @@ main{
 }
 /* comparison styling*/
 
-.Comparison-cont hr{
+.Comparison-cont hr, .container hr{
     width: 60%;
     margin: auto;
     margin-bottom: 2%;
@@ -112,8 +110,11 @@ main{
 
 /* Style when Working with small screen devices */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .grid-plots img{
         width: 100%;
+    }
+    .container {
+        font-size: 0.9rem;
     }
   }
