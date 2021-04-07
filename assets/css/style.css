@@ -57,6 +57,7 @@ body{
     /* border: blue 3px dotted; */
     background-color: white;
     align-items: center;
+    margin-bottom: 2%;
 }
 
 .my-col-sm img, .grid-plots img{
@@ -95,6 +96,10 @@ body{
     margin-bottom: 2%;
 }
 
+.hr-plot{
+    visibility: hidden;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -120,4 +125,15 @@ body{
     .Comparison-cont{
         padding-bottom: 7%;
     }
+    .hr-plot{
+        visibility:visible;
+        margin-bottom: 20%;
+        border: none;
+        height: 10px;
+        /* Set the hr color */
+        color: #333; /* old IE */
+        background-color: #333; /* Modern Browsers */
+        width: 100%;
+    }
+
   }
