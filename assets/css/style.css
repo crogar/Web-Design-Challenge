@@ -60,6 +60,9 @@ body{
     padding-bottom: 5%;
     margin-top: 1%;
 }
+.Comparison-cont a{
+    text-decoration: none;
+}
 
 .my-col{
     /* margin-right: 5px; */
@@ -124,6 +127,7 @@ body{
         background-position: 0% 50%;
     }
 }
+
 
 /* Style when Working with small screen devices */
 
