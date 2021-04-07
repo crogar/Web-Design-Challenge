@@ -48,9 +48,10 @@ body{
     width: 100%;
 }
 
-/* .table-cont{
-    margin-top: 2%;
-} */
+.table-cont{
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
 .Comparison-cont{
     background-color: white;
