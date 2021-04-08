@@ -2,6 +2,10 @@ body{
     background-color: #222;
 
 }
+body img{
+    animation: drop 1.4s ease-in-out;
+}
+
 .navbar-brand{
     color:azure;
     padding-right: 5%;
@@ -123,6 +127,17 @@ body{
     }
 }
 
+/* Creating drop animation */
+@keyframes drop{
+	0%{
+		opacity:0;
+		transform: translateY(-80px);
+	}
+	100%{
+		opacity:1;
+		transform: translateY(0px);
+	}
+}
 
 /* Style when Working with small screen devices */
 
