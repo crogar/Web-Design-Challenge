@@ -71,8 +71,6 @@ body img{
 }
 
 .my-col{
-    /* margin-right: 5px; */
-    /* border: blue 3px dotted; */
     background-color: white;
     align-items: center;
     margin-bottom: 2%;
@@ -87,7 +85,9 @@ body img{
     float: left;
     padding: 0 1px 0 0;
 }
-
+body p{
+    color: gray;
+}
 .my-col-sm{
     height: 100%;
 }
