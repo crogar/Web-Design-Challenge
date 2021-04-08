@@ -1,5 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+### To See the live website click on the next link
+[Web Visualization (Latitude)](https://crogar.github.io/Web-Design-Challenge/ "Web Visualization (Latitude) Homepage")
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
